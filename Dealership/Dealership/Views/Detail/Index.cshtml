@@ -10,8 +10,8 @@
 <p>Make:  @Model.Cars[ViewBag.CarIndex].Make</p>
 <p>Year:  @Model.Cars[ViewBag.CarIndex].Year</p>
 
-@Html.ActionLink("Previous", "Previous", null, new { @class = "btn btn-default" })
-@Html.ActionLink("Next", "Next", null, new { @class = "btn btn-default" })
+@Html.ActionLink("Previous", "Previous", new { @carIndex = ViewBag.CarIndex }, new { @class = "btn btn-default" })
+@Html.ActionLink("Next", "Next", new { @carIndex = ViewBag.CarIndex }, new { @class = "btn btn-default" })
 
 <br />
 <br />
