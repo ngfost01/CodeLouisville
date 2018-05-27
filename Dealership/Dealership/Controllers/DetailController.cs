@@ -9,31 +9,13 @@ namespace Dealership.Controllers
 
         public DetailController()
         {
-            _carLot = new CarLot()
-            {
-                Dealer = new Dealer()
-                {
-                    Name = "Code Louisville Cars"
-                }
-            };
-
-            for(int carNumber = 0; carNumber < 100; carNumber++)
-            {
-                Car car = new Car()
-                {
-                    Make = $"Make_{carNumber}",
-                    Model = $"Model_{carNumber}",
-                    Year = 2000 + carNumber
-                };
-
-                _carLot.Cars.Add(car);
-            }
+            _carLot = CarLot.Initialize();
         }
 
         // GET: Detail
-        public ActionResult Index()
+        public ActionResult Index(int id)
         {
-            ViewBag.CarIndex = 0;
+            ViewBag.CarIndex = id;
 
             return View(_carLot);
         }
