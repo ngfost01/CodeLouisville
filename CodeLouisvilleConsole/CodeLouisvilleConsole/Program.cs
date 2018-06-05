@@ -23,8 +23,15 @@ namespace CodeLouisvilleConsole
 
             //mySportsCar.HasNitrous = true;
 
+            SuperCar myActualSuperCar = (SuperCar)mySportsCar;
+
+            myActualSuperCar.HasNitrous = true;
+            myActualSuperCar.NumberFins = 7;
+
+
             // Way to set property
             ((SuperCar)mySportsCar).HasNitrous = true;
+            ((SuperCar)mySportsCar).NumberFins = 7;
         }
     }
 }
