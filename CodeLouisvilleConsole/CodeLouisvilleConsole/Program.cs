@@ -1,0 +1,30 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace CodeLouisvilleConsole
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Car myCar = new Car();
+            myCar.Id = 1;
+            myCar.Make = "Honda";
+            myCar.Model = "CRV";
+            myCar.Year = DateTime.Now;
+
+            Car mySportsCar = new SuperCar();
+            mySportsCar.Id = 2;
+            mySportsCar.Make = "Mazda";
+            mySportsCar.Model = "Miata";
+
+            //mySportsCar.HasNitrous = true;
+
+            // Way to set property
+            ((SuperCar)mySportsCar).HasNitrous = true;
+        }
+    }
+}
