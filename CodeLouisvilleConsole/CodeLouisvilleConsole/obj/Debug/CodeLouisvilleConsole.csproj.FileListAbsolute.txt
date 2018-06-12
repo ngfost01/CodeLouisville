@@ -1,0 +1,7 @@
+C:\Users\nfoster\Documents\GitHub\CodeLouisville\CodeLouisvilleConsole\CodeLouisvilleConsole\bin\Debug\CodeLouisvilleConsole.exe.config
+C:\Users\nfoster\Documents\GitHub\CodeLouisville\CodeLouisvilleConsole\CodeLouisvilleConsole\bin\Debug\CodeLouisvilleConsole.exe
+C:\Users\nfoster\Documents\GitHub\CodeLouisville\CodeLouisvilleConsole\CodeLouisvilleConsole\bin\Debug\CodeLouisvilleConsole.pdb
+C:\Users\nfoster\Documents\GitHub\CodeLouisville\CodeLouisvilleConsole\CodeLouisvilleConsole\obj\Debug\CodeLouisvilleConsole.csprojResolveAssemblyReference.cache
+C:\Users\nfoster\Documents\GitHub\CodeLouisville\CodeLouisvilleConsole\CodeLouisvilleConsole\obj\Debug\CodeLouisvilleConsole.csproj.CoreCompileInputs.cache
+C:\Users\nfoster\Documents\GitHub\CodeLouisville\CodeLouisvilleConsole\CodeLouisvilleConsole\obj\Debug\CodeLouisvilleConsole.exe
+C:\Users\nfoster\Documents\GitHub\CodeLouisville\CodeLouisvilleConsole\CodeLouisvilleConsole\obj\Debug\CodeLouisvilleConsole.pdb
