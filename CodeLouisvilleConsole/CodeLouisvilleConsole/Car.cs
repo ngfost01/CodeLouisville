@@ -2,6 +2,9 @@
 
 namespace CodeLouisvilleConsole
 {
+    /// <summary>
+    /// Basic car
+    /// </summary>
     public class Car
     {
         private int _id;
