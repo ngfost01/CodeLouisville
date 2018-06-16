@@ -6,3 +6,10 @@
 /CodeLouisvilleConsole/.vs/CodeLouisvilleConsole/v15/.suo
 /~WRL1668.tmp
 /~$deLouisvilleConsole-Demo Steps.docx
+/ASPNETMVCEntityFramework/.vs/ASPNETMVCEntityFramework/v15/Server/sqlite3
+*.suo
+/ASPNETMVCEntityFramework/.vs/config
+/ASPNETMVCEntityFramework/ASPNETMVCEntityFramework/bin
+/ASPNETMVCEntityFramework/ASPNETMVCEntityFramework/obj/Debug
+/ASPNETMVCEntityFramework/packages
+/ASPNETMVCEntityFramework/ASPNETMVCEntityFramework.v3.ncrunchsolution.user
